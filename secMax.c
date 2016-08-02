@@ -7,6 +7,7 @@ int main()
 
 	scanf("%d",&n);
 	max1=-9999;
+   if(n>0){
 	for(i=0;i<n;i++){
 		scanf("%d",&a[i]);
 
@@ -17,7 +18,9 @@ int main()
 	}
 
 	printf("%d",max2);
-
+}
+else
+	printf("-1");
 
 	return 0;
 }
